@@ -27,3 +27,4 @@ S0MMS, cshreve@rei.com
 ## License
 
 FooLib is available under the MIT license. See the LICENSE file for more info.
+# FooLib
