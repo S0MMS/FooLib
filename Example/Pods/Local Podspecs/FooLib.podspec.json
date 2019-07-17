@@ -1,0 +1,22 @@
+{
+  "name": "FooLib",
+  "version": "0.1.0",
+  "summary": "A short description of FooLib.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/S0MMS/FooLib",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "S0MMS": "cshreve@rei.com"
+  },
+  "source": {
+    "git": "https://github.com/S0MMS/FooLib.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "FooLib/Classes/**/*"
+}
