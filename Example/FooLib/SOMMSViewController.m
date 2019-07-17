@@ -8,6 +8,8 @@
 
 #import "SOMMSViewController.h"
 
+#import <FooLib/FooUtility.h>
+
 @interface SOMMSViewController ()
 
 @end
@@ -18,6 +20,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    [FooUtility classMethod];
 }
 
 - (void)didReceiveMemoryWarning
