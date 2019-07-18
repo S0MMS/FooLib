@@ -9,6 +9,7 @@
 #import "SOMMSViewController.h"
 
 #import <FooLib/FooUtility.h>
+#import <FooLib/BarUtility.h>
 
 @interface SOMMSViewController ()
 
@@ -22,6 +23,13 @@
 	// Do any additional setup after loading the view, typically from a nib.
     
     [FooUtility classMethod];
+    FooUtility *f = [[FooUtility alloc] init];
+    [f instanceMethod];
+    
+    
+    [BarUtility classMethod];
+    BarUtility *b = [[BarUtility alloc] init];
+    [b instanceMethod];
 }
 
 - (void)didReceiveMemoryWarning

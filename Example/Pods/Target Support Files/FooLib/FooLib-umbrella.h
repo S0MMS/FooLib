@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "BarUtility.h"
+#import "FooUtility.h"
 
 FOUNDATION_EXPORT double FooLibVersionNumber;
 FOUNDATION_EXPORT const unsigned char FooLibVersionString[];
