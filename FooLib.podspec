@@ -32,6 +32,8 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'FooLib/Classes/**/*'
   
+  s.swift_versions = '4.2'
+  
   # s.resource_bundles = {
   #   'FooLib' => ['FooLib/Assets/*.png']
   # }
