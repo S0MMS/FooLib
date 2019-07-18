@@ -1,6 +1,6 @@
 PODS:
   - Expecta (1.0.6)
-  - FooLib (0.1.0)
+  - FooLib (0.1.1)
   - Specta (1.0.7)
 
 DEPENDENCIES:
@@ -19,7 +19,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Expecta: 3b6bd90a64b9a1dcb0b70aa0e10a7f8f631667d5
-  FooLib: 52fa66c5c1097fd7692fde8a8618749a38467da6
+  FooLib: 3f73aec1aecede03d179798d46ce0fc0c4a31b2d
   Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
 
 PODFILE CHECKSUM: f6b139920d3a7bcfbf74f9eaa262be1fa7806f5e

@@ -1,6 +1,6 @@
 {
   "name": "FooLib",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "A maeningful description of FooLib.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/S0MMS/FooLib",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/S0MMS/FooLib.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"

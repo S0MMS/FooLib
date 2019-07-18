@@ -10,7 +10,8 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface BarUtility : NSObject
-
+- (void) instanceMethod;
++ (void) classMethod;
 @end
 
 NS_ASSUME_NONNULL_END
