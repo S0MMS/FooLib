@@ -8,11 +8,16 @@
 
 #import "SOMMSAppDelegate.h"
 
+//#import <NewRelicAgent/NewRelic.h>
+@import FooLib;
+
 @implementation SOMMSAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+//    [NewRelicAgent startWithApplicationToken:@"AA20f451bc102b114645689092c95bb597146165c4"];
+    [BarUtility configureAdobe];
     return YES;
 }
 

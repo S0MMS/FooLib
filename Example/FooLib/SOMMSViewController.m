@@ -24,9 +24,9 @@
 	// Do any additional setup after loading the view, typically from a nib.
     
     // objc stuff
-    [FooUtility classMethod];
-    FooUtility *f = [[FooUtility alloc] init];
-    [f instanceMethod];
+//    [FooUtility classMethod];
+//    FooUtility *f = [[FooUtility alloc] init];
+//    [f instanceMethod];
     
     [BarUtility classMethod];
     BarUtility *b = [[BarUtility alloc] init];

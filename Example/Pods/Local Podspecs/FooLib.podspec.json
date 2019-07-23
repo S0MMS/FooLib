@@ -1,6 +1,6 @@
 {
   "name": "FooLib",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "summary": "A maeningful description of FooLib.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/S0MMS/FooLib",
@@ -13,10 +13,24 @@
   },
   "source": {
     "git": "https://github.com/S0MMS/FooLib.git",
-    "tag": "0.1.1"
+    "tag": "0.1.2"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "FooLib/Classes/**/*"
+  "source_files": "FooLib/Classes/**/*",
+  "swift_versions": "4.2",
+  "static_framework": true,
+  "dependencies": {
+    "NewRelicAgent": [
+
+    ],
+    "ACPCore": [
+      "~> 2.3"
+    ],
+    "ACPAnalytics": [
+      "~> 2.1"
+    ]
+  },
+  "swift_version": "4.2"
 }

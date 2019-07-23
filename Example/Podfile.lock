@@ -1,16 +1,34 @@
 PODS:
+  - ACPAnalytics (2.1.2):
+    - ACPAnalytics/iOS (= 2.1.2)
+    - ACPCore (>= 2.1.1)
+  - ACPAnalytics/iOS (2.1.2):
+    - ACPCore (>= 2.1.1)
+  - ACPCore (2.3.2):
+    - ACPCore/iOS (= 2.3.2)
+  - ACPCore/iOS (2.3.2)
   - Expecta (1.0.6)
-  - FooLib (0.1.1)
+  - FooLib (0.1.2):
+    - ACPAnalytics (~> 2.1)
+    - ACPCore (~> 2.3)
+    - NewRelicAgent
+  - NewRelicAgent (6.7.0)
   - Specta (1.0.7)
 
 DEPENDENCIES:
+  - ACPAnalytics (~> 2.1)
+  - ACPCore (~> 2.3)
   - Expecta
   - FooLib (from `../`)
+  - NewRelicAgent
   - Specta
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - ACPAnalytics
+    - ACPCore
     - Expecta
+    - NewRelicAgent
     - Specta
 
 EXTERNAL SOURCES:
@@ -18,10 +36,13 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
+  ACPAnalytics: 872c4701bd53b508602ce1e31cf5e7cee295f690
+  ACPCore: 4461c6462adec0e103d6fc1e9bdc21dee8a991e0
   Expecta: 3b6bd90a64b9a1dcb0b70aa0e10a7f8f631667d5
-  FooLib: 3f73aec1aecede03d179798d46ce0fc0c4a31b2d
+  FooLib: 78459389f04f564375e5486f38b0a59392041f71
+  NewRelicAgent: effc8c7164f7d8e853268b0a6381ad8e4bf1d6ad
   Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
 
-PODFILE CHECKSUM: f6b139920d3a7bcfbf74f9eaa262be1fa7806f5e
+PODFILE CHECKSUM: 45a649cf6d0bb8dbff535fa65dffcd22c96b976d
 
 COCOAPODS: 1.7.4
