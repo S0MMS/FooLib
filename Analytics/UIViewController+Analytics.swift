@@ -169,14 +169,15 @@ extension UIViewController: AnalyticsProvider {
     // MARK: - Helper Methods
     
     fileprivate func analyticsViewController() -> AnalyticsViewController? {
-        var foundController:AnalyticsViewController? = nil
-
-        for viewController in self.children {
-            if viewController.isKind(of: AnalyticsViewController.self) {
-               foundController = viewController as? AnalyticsViewController
-            }
-        }
-        
-        return foundController
+//        var foundController:AnalyticsViewController? = nil
+//
+//        for viewController in self.children {
+//            if viewController.isKind(of: AnalyticsViewController.self) {
+//               foundController = viewController as? AnalyticsViewController
+//            }
+//        }
+//
+//        return foundController
+        return nil
     }
 }
